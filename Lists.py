@@ -14,22 +14,22 @@ Output:
 [0, 1, 2, 3]
 Author: Aquilas DJENONTIN
 """
-if __name__ == '__main__':
+if __name__ == "__main__":
     N = int(input())
     a = []
     for _ in range(N):
         userInput = input()
-        if 'append' in userInput:
+        if "append" in userInput:
             a.append(int(userInput.split()[1]))
-        elif 'insert' in userInput:
+        elif "insert" in userInput:
             a.insert(int(userInput.split()[1]), int(userInput.split()[2]))
-        elif 'remove' in userInput:
+        elif "remove" in userInput:
             a.remove(int(userInput.split()[1]))
-        elif 'sort' in userInput:
+        elif "sort" in userInput:
             a.sort()
-        elif 'pop' in userInput:
+        elif "pop" in userInput:
             a.pop()
-        elif 'reverse' in userInput:
+        elif "reverse" in userInput:
             a.reverse()
-        elif 'print' in userInput:
+        elif "print" in userInput:
             print(a)
