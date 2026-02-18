@@ -21,9 +21,17 @@ from itertools import groupby
 
 
 def compress_string(s):
+    """
+    Compress the string using groupby from itertools.
+    :param s: The input string to be compressed.
+    :return: A list of compressed string segments in the format (X, c).
+    Complexity Analysis:
+    Time Complexity: O(n), where n is the length of the input string. We traverse the string once to group the characters and create the compressed output.
+    Space Complexity: O(n), in the worst case, if all characters in the string are unique, we will have n groups, and the output list will also contain n elements.
+    """
     return [str((len(list(g)), int(x))) for x, g in groupby(s)]
 
-
+# Example usage:
 if __name__ == "__main__":
     s = input()
     result = compress_string(s)
