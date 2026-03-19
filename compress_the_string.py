@@ -17,6 +17,7 @@ Sample Output
 (3, a) (1, b) (2, c) (4, d) (1, e)
 Author: Aquilas DJENONTIN
 """
+
 from itertools import groupby
 
 
@@ -30,6 +31,7 @@ def compress_string(s):
     Space Complexity: O(n), in the worst case, if all characters in the string are unique, we will have n groups, and the output list will also contain n elements.
     """
     return [str((len(list(g)), int(x))) for x, g in groupby(s)]
+
 
 # Example usage:
 if __name__ == "__main__":

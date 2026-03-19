@@ -29,14 +29,14 @@ Author: Aquilas DJENONTIN
 def comb_count(N, k):
     """
     Calculate the probability that at least one selected index contains the letter 'a'.
-    
+
     Parameters:
     N (iterable): An iterable of lowercase English letters
     k (int): The number of indices to be selected
-    
+
     Returns:
     float: The probability that at least one of the k selected indices contains 'a'
-    
+
     Complexity: O(n!/(k!(n-k)!)) for time complexity, where n
     is the length of the input string N and k is the length of the combinations, since we need to generate all possible combinations of length k from n characters.
     """

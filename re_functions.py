@@ -9,6 +9,7 @@ Docstring for ReFunctions
 This module contains functions that demonstrate the use of regular expressions in Python.
 Author: Aquilas DJENONTIN
 """
+
 import re
 
 

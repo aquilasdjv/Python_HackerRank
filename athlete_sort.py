@@ -19,8 +19,7 @@ Complexity: O(n log n) due to the sorting step, where n is the number of scores.
 Author: Aquilas DJENONTIN
 """
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     first_multiple_input = input().rstrip().split()
 
     n = int(first_multiple_input[0])
@@ -35,6 +34,6 @@ if __name__ == '__main__':
     k = int(input().strip())
 
     arr.sort(key=lambda elt: elt[k])
-    
+
     for elt in arr:
         print(*elt)

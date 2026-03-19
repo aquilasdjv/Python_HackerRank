@@ -22,7 +22,7 @@ Sample Output
 #fd3
 #FD3
 Explanation
-The first three lines of the input contain valid hex color codes, so we print them. 
+The first three lines of the input contain valid hex color codes, so we print them.
 The fourth line does not contain a valid hex color code because it has more than 6 hexadecimal digits, so we do not print it.
 Author: Aquilas DJENONTIN
 """
@@ -41,7 +41,7 @@ def hex_color_code():
     s = ""
     for _ in range(n):
         s += input()
-    # This pattern finds all substrings that are enclosed within curly braces in the input string.    
+    # This pattern finds all substrings that are enclosed within curly braces in the input string.
     m = re.findall(r"\{([^}]*)\}", s)
     for x in m:
         p = re.findall(pattern, x)

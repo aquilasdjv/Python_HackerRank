@@ -25,6 +25,7 @@ The XML document has a maximum depth of 2. The feed element is at depth 1, and t
 subtitle, link, and updated elements are at depth 2. Hence, the maximum depth of the XML document is 2.
 Author: Aquilas DJENONTIN
 """
+
 import xml.etree.ElementTree as etree
 
 maxdepth = 0
@@ -40,6 +41,7 @@ def depth(elem, level):
     maxdepth = max(maxdepth, level)
     for child in elem:
         depth(child, level)
+
 
 # Example usage:
 if __name__ == "__main__":

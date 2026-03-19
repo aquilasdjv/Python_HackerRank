@@ -6,7 +6,7 @@ Docstring for If_else
 @author aquilas djenontin
 """
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input().strip())
     if n % 2 != 0:
         print("Weird")

@@ -13,7 +13,9 @@ The file contains four versions of the solution:
 
 Author: Aquilas DJENONTIN
 """
+
 from itertools import product
+
 
 def maximizeIt():
     """
@@ -129,6 +131,7 @@ def maximizeIt_v4():
         possible = {(p + sq) % m for p in possible for sq in squares}
 
     print(max(possible))
+
 
 # Example usage:
 if __name__ == "__main__":

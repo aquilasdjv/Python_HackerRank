@@ -2,7 +2,7 @@
 # https://www.hackerrank.com/challenges/xml-1-find-the-score/problem
 """
 Docstring for FindtheScoreXml
-You are given an XML document, and you have to find the score of the document. 
+You are given an XML document, and you have to find the score of the document.
 The score of an XML document is the sum of the number of attributes in each element in the document.
 Input Format
 The first line contains the number of lines in the XML document. The subsequent lines contain the XML document.
@@ -25,6 +25,7 @@ The XML document contains 5 attributes: xml:lang in the feed element, lang in th
 subtitle element, and rel, href in the link element. Hence, the score of the XML document is 5.
 Author: Aquilas DJENONTIN
 """
+
 import sys
 import xml.etree.ElementTree as etree
 

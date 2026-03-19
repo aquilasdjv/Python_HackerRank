@@ -14,6 +14,7 @@ Output:
 [0, 1, 2, 3]
 Author: Aquilas DJENONTIN
 """
+
 if __name__ == "__main__":
     N = int(input())
     a = []

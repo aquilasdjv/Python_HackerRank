@@ -2,7 +2,7 @@
 # https://www.hackerrank.com/challenges/py-collections-ordereddict/problem
 """
 Docstring for CollectionsOrderedDict
-You are given N words. Some words may repeat. For each word, output its number of occurrences. The output order should correspond with the input order of appearance of the word. 
+You are given N words. Some words may repeat. For each word, output its number of occurrences. The output order should correspond with the input order of appearance of the word.
 See the sample input/output for clarification.
 Input Format
 The first line contains the integer N, the number of words. The next N lines each contain a word.

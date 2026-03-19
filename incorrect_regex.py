@@ -21,6 +21,7 @@ Explanation
 The first test case is a valid regex. The second test case is not a valid regex.
 Author: Aquilas DJENONTIN
 """
+
 import re
 
 

@@ -2,7 +2,7 @@
 """
 Docstring for SetIntroduction
 This module contains functions to calculate the average of unique elements in a list. It demonstrates the use
-of sets to remove duplicates and calculate the average. The module includes two functions, average and average1, 
+of sets to remove duplicates and calculate the average. The module includes two functions, average and average1,
 which perform the same calculation using different approaches. The code also includes a test case to demonstrate the functionality of the average function.
 Authors: Aquilas DJENONTIN
 """

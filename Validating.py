@@ -11,7 +11,6 @@ This module contains functions that demonstrate the use of regular expressions t
 Author: Aquilas DJENONTIN
 """
 
-
 import re
 import email.utils as eu
 

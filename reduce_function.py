@@ -23,6 +23,7 @@ Explanation
 The product of the fractions is (1/2) * (3/4) * (5/6) = 15/48. The simplest form of this fraction is 5/16, so we print "5 16".
 Author: Aquilas DJENONTIN
 """
+
 from fractions import Fraction
 from functools import reduce
 

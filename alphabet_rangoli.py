@@ -4,6 +4,7 @@ Docstring for AlphabetRangoli
 This module contains functions to print an alphabet rangoli of a given size.
 Authors: Aquilas DJENONTIN
 """
+
 import string
 
 ALPHABET = "abcdefghijklmnopqrstuvwxyz"

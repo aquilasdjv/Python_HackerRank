@@ -33,7 +33,6 @@ Author: Aquilas DJENONTIN
 
 import re
 
-
 if __name__ == "__main__":
     for _ in range(int(input())):
         m = re.fullmatch(r"^(?![-+]?0(\.0*)?$)[-+]?(?:\d+(\.\d*)?|\.\d+)$", input())

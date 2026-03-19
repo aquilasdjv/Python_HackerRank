@@ -17,6 +17,7 @@ Explanation
 The day on August 5th, 2015 was a Wednesday.
 Author: Aquilas DJENONTIN
 """
+
 import calendar
 
 

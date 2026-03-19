@@ -9,7 +9,6 @@ different parts of the HTML content, such as start tags, end tags, empty tags, d
 Author: Aquilas DJENONTIN
 """
 
-
 from html.parser import HTMLParser
 
 

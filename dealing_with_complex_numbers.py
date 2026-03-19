@@ -31,6 +31,7 @@ A / B = 0.00 + 6.32i
 |A| = 2.24 + 0.00i
 Author: Aquilas DJENONTIN
 """
+
 import math
 
 

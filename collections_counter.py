@@ -3,6 +3,7 @@
 
 from collections import Counter
 
+
 def count_shoes():
     x = int(input())
     sizes = Counter(map(int, input().split()))
@@ -13,8 +14,9 @@ def count_shoes():
         if size in sizes.keys() and sizes[size] > 0:
             N += int(customer)
             sizes[size] -= 1
-            
+
     print(N)
+
 
 # Example usage:
 if __name__ == "__main__":
